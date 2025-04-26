@@ -1,0 +1,8 @@
+[ 2025-04-26 09:11:31,180 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-04-26 09:11:31,183 ] 97 werkzeug - INFO -  * Debugger PIN: 941-151-739
+[ 2025-04-26 09:11:50,463 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Apr/2025 09:11:50] "GET /predict HTTP/1.1" 200 -
+[ 2025-04-26 09:11:52,874 ] 39 root - INFO - Before Prediction got the data   gender race_ethnicity  ... reading_score writing_score
+0   male        group A  ...          80.0          89.0
+
+[1 rows x 7 columns]
+[ 2025-04-26 09:11:53,007 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Apr/2025 09:11:53] "POST /predict HTTP/1.1" 200 -
